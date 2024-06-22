@@ -41,7 +41,7 @@ print(f"Total Count of Neurotypical participants: {total_count_neurotypical}")
 labels = ['Autism', 'Neurotypical']
 counts = [total_count_autism, total_count_neurotypical]
 
-# Plotting
+# Bar Graph
 
 # Customize colors and edge color
 colors = ['#87CEEB', '#FFB6C1']
