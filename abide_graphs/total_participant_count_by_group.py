@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load data from Excel
+# Load data from CSV
 file_path1 = 'C:\\Users\\laure\\OneDrive\\Documents\\DATAFUN\\ABIDE\\csv_files\\new_data_abide1.csv'
 file_path2 = 'C:\\Users\\laure\\OneDrive\\Documents\\DATAFUN\\ABIDE\\csv_files\\new_data_abide2.csv'
 df1 = pd.read_csv(file_path1, usecols=['participant_id', 'DX_GROUP', 'DSM_IV_TR'])
